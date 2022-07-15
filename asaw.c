@@ -337,3 +337,8 @@ void* await(future_t* f)
     free(f);
     return r;
 }
+
+bool asaw_is_available()
+{
+    return aas != NULL;
+}

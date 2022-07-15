@@ -17,5 +17,6 @@ future_t* async(thread_function_t fn, void* arg);
 void asaw_free();
 int asaw_init(uint_fast16_t size);
 bool async_noawait(thread_function_t fn, void* arg);
+bool asaw_is_available();
 
 #endif
